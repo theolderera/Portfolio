@@ -719,8 +719,9 @@ video {
   background-color: rgb(0 204 255 / 0.6);
 }
 
-.bg-\[\#050c8b\]\/100 {
-  background-color: rgb(5 12 139 / 1);
+.bg-\[\#312d9a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 45 154 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#8cff00\] {
@@ -728,79 +729,14 @@ video {
   background-color: rgb(140 255 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#f7f8e4\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 248 228 / var(--tw-bg-opacity, 1));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#606248\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 98 72 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#fcffcb\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 255 203 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#cbf8ff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 248 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#94e4f0\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 228 240 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#b0f5ff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(176 245 255 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#ccf8ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(204 248 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#050c8b\] {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(5 12 139 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#4d4d4d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(77 77 77 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#000000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#1611af\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 17 175 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#07036d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(7 3 109 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#262463\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 36 99 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#312d9a\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(49 45 154 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-br {
