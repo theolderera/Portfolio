@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,115 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    
+    <header class="flex justify-between px-[100px] py-[17px] bg-[#00ccff]/60 font-bold text-white items-center fixed w-full z-[5]">
+        <div class="w-[150px] h-[0px] relative top-[-110px]">
+            <img src="./img/54f86cc5cb84a269dd468a9291f31939-removebg-preview.png" alt="">
+        </div>
+        <div class="flex gap-[20px]">
+            <a class="hover:text-[yellow]" href="#s1">About me</a>
+            <a class="hover:text-[yellow]" href="#s2">My activities</a>
+            <a class="hover:text-[yellow]" href="">My websites</a>
+            <a class="hover:text-[yellow]" href="#s3">Tech Skills</a>           
+            <a class="hover:text-[yellow]" href="#s4">Blog</a>
+        </div>
+        <a href="#s5"><button class="bg-white text-[#00ccff] px-[15px] py-[7px] rounded-[10px] hover:bg-[#065b70] hover:text-white">Contact</button></a>
+    </header>
+
+    <main class="pt-[75px] bg-[#ccf8ff]">
+        <section id="s1" class="flex justify-between px-[250px] py-[50px] items-center">
+            <div class="font-bold w-[400px]">
+                <h1 class="text-[40px]">About me</h1>
+                <div class="text-[13px] pt-[20px] text-[#464646]">
+                    <p>My name is Ahmad, I am 19 years old, a Tajik born and raised in Tajikistan. I am currently a fourth-year student at the Faculty of Dentistry at the Rudaki Medical College.</p>
+                    <p class="py-[10px]">In addition to my studies in dentistry, I am also pursuing a software development course at the SoftClub Training Center. I have been studying there for the past three months. My goal is to first complete the Front-End development course, followed by the Back-End course, and eventually become a skilled Full-Stack Developer.</p>
+                    <p>In the future, I plan to combine my knowledge in both fields and continue my career in the tech and healthcare industries.</p>
+                </div>
+            </div>
+            <div class="w-[400px] h-[400px] bg-gradient-to-br from-[#00ccff] to-[#bbff00] 
+            rounded-tr-[150px] rounded-bl-[150px] rounded-tl-[20px] rounded-br-[20px] 
+            shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)]"></div>
+            <img class="absolute left-[810px] top-[50px]" src="./img/about me.png" alt="">
+        </section>
+
+        <section id="s2" class="flex justify-between px-[250px] py-[50px] items-center">
+            <img class="absolute left-[200px] top-[525px] z-[2]" src="./img/4b3d2cfda4ddee97ef8ca77a1218198e-removebg-preview.png" alt="">
+            <div class="w-[400px] h-[400px] bg-gradient-to-br from-[#00ccff]/30 to-[#3366ff]/30 
+            backdrop-blur-xl rounded-[50px] border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] 
+            transition duration-500 hover:scale-105 hover:shadow-[0_12px_45px_rgba(0,0,0,0.3)] 
+            flex items-center justify-center text-white text-xl font-semibold tracking-wide"></div>
+            <div class="font-bold w-[400px]">
+                <h1 class="text-[40px]">My activities</h1>
+                <p class="text-[13px] pt-[20px] text-[#464646]">I’m a dentistry student, deeply passionate about the medical field and committed to becoming a skilled professional. But my journey doesn’t stop there.
+Outside of my studies, I’m diving into the world of programming — a field that challenges my mind and excites my creativity. I'm currently learning front-end development and plan to move on to back-end soon, with a clear goal in mind: to become a full-stack developer who builds meaningful, impactful solutions.
+Beyond academics and coding, I’m also an athlete. I train and compete in MMA (Mixed Martial Arts), where I push my limits, test my discipline, and grow stronger — physically and mentally — with every match.
+Balancing medicine, tech, and sports isn’t easy, but I believe in living fully. I dedicate my time to what I love, and through hard work and purpose, I strive to become not just successful — but a complete, capable, and driven individual.</p>
+            </div>
+        </section>
+
+        <section id="s3" class="font-bold">
+            <h1 class="text-[40px] text-center pt-[30px]">Tech Skills</h1>
+
+            <div class="flex justify-between px-[50px] py-[50px]">
+                <img class="w-[200px]" src="./img/html-removebg-preview.png" alt="">
+                <img class="w-[200px]" src="./img/css.jpg" alt="">
+                <img class="w-[200px]" src="./img/python-removebg-preview.png" alt="">
+                <img class="w-[200px]" src="./img/c++-removebg-preview.png" alt="">
+                <img class="w-[200px]" src="./img/js.png" alt="">
+            </div>
+        </section>
+
+        <section id="s4" class="font-bold">
+            <h1 class="text-[40px] text-center pt-[30px]">BLOG</h1>
+            <div class="flex justify-between px-[50px] py-[50px]">
+                <a href="https://www.instagram.com/ahmad.hayotov/?utm_source=ig_web_button_share_sheet">
+                    <img class="w-[250px]" src="./img/instagram.png" alt="">
+                </a>
+                <a href="https://t.me/dps2511">
+                    <img class="w-[250px]" src="./img/telegramm.png" alt="">
+                </a>
+                <a href="https://github.com/theolderera">
+                    <img class="w-[250px] rounded-[30px]" src="./img/gti hab.jpg" alt="">
+                </a>
+                <a href="https://wa.me/message/W75JEQMHT3EDJ1">
+                    <img class="w-[250px]" src="./img/whatsapp.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <footer id="s5" class="flex justify-between px-[250px] py-[50px] bg-[#312d9a] text-white">
+            <div>
+                <h1 class="text-[50px] font-bold">Contact</h1>
+                <div class="flex gap-[10px] py-[10px]">
+                    <a href="https://t.me/dps2511">
+                        <img class="w-[40px]" src="./img/telegramm.png" alt="">
+                    </a>
+                    <a href="https://wa.me/message/W75JEQMHT3EDJ1">
+                        <img class="w-[40px]" src="./img/whatsapp.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/ahmad.hayotov/?utm_source=ig_web_button_share_sheet">
+                        <img class="w-[40px]" src="./img/instagram.png" alt="">
+                    </a>
+                    <a href="https://github.com/theolderera">
+                        <img class="w-[40px] rounded-[30px]" src="./img/gti hab.jpg" alt="">
+                    </a>
+                </div>
+                <h1 class="font-bold text-[20px]">+992 011-79-25-25</h1>
+            </div>
+
+            <div class="w-[400px] font-bold">
+                <label for="">First Name</label>
+                <input class="text-black w-[100%] p-[5px] rounded-[5px] outline-none border-[1px] border-[black] mb-[20px]" type="text" placeholder="First Name">
+                <label for="">Last Name</label>
+                <input class="text-black w-[100%] p-[5px] rounded-[5px] outline-none border-[1px] border-[black] mb-[20px]" type="text" placeholder="Last Name">
+                <label for="">Email</label>
+                <input class="text-black w-[100%] p-[5px] rounded-[5px] outline-none border-[1px] border-[black] mb-[20px]" type="email" placeholder="Email">
+                <label for="">Fhone</label>
+                <input class="text-black w-[100%] p-[5px] rounded-[5px] outline-none border-[1px] border-[black] mb-[20px]" type="tel" placeholder="Fhone">
+                <label for="">Message</label>
+                <textarea class="text-black w-[100%] rounded-[5px] border-[1px] border-[black] mb-[20px]" name="" id=""></textarea>
+                <button class="bg-[#8cff00] text-[#000000] px-[183px] py-[7px] rounded-[10px] hover:bg-[#065b70] hover:text-white">Send</button>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
